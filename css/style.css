@@ -1,5 +1,13 @@
 
 
+/* general css style */
+*{
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
 body{
 
   font-family: "Varela Round", sans-serif;
@@ -7,20 +15,46 @@ body{
   font-style: normal;
 }
 
-*{
+.clear{
 
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; 
+  clear: both;
+
 }
 
 .container{
   width: 80%;
-  height: 20px;
-  background: red;
   margin: auto;
 }
 
 .header{
   background: gray;
 }
+
+.header .logo{
+
+  width: 40%;
+  float: left;
+
+}
+
+.header .nav{
+
+  width: 60%;
+  float: left;
+  list-style: none;
+}
+
+.header .nav li{
+
+  display: inline-block;
+}
+/* inlin block for whidth and hight */
+
+.header .nav li a {
+
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 30px 10px;
+}
+/* 30 فوق وتحت  و10 يمين وشمال */
